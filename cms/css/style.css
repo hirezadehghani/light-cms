@@ -1,0 +1,145 @@
+@font-face{
+    font-family: "vazir";
+    src: url("../fonts/vazir/vazir.eot");
+    src: url("../fonts/vazir/vazir.eot#iefix") format("embeded-opentype"),
+         url("../fonts/vazir/vazir.woff2") format("woff2"),
+         url("../fonts/vazir/vazir.woff") format("woff"),
+         url("../fonts/vazir/vazir.ttf") format("truetype");
+}
+body{
+    direction: rtl;
+    text-align: right !important;
+    font-family: "vazir" !important;
+    /* line-height: 1.6; */
+}
+@media only screen and (min-width: 768px) {
+    body {
+      margin: 30px 0 30px 0;
+    }
+}
+/* index.php styles */
+input {
+    text-align: center;
+  }
+#category_a[class*=active] a{
+    color: #fff !important;
+}
+.poweredcolor{
+    color:#007bff;
+}
+.color-f{
+    color: #fff;
+}
+/*.postfsize{
+    font-size: 0.75rem !important;
+}*/
+.card{
+    background-color: #f6f6f6 !important;
+}
+/* night mode */
+.nightmode{
+    background-color: rgb(24, 26, 27) !important;
+    color:rgb(209, 205, 199) !important;
+}
+.lightmode{
+    background-color: #fff !important;
+    color: #222 !important;
+}
+input["text"]{
+    background-color:#fff !important;
+}
+/* night mode */
+/* POSTS */
+.card-img-top{
+    max-width: 305px;
+    max-height: 200px;
+}
+.card{
+    margin-bottom: 10px;
+}
+.card-text{
+    font-size: 1.25rem;
+    text-align: center;
+}
+.card-img-top {
+    position:relative;
+    display:inline-block;
+}
+.badge-post{
+    position: absolute;
+    right:0px;
+    top: 25px;
+    text-align: center;
+    padding:5px 10px;
+    border-radius: 5px 0px 0px 5px;
+}
+/* POSTS */
+
+/* SLIDER */
+.carousel-item img{
+      max-height: 200px !important;
+}
+/* .card-body a{
+    color:blue !important;
+} */
+/* SLIDER */
+/* NABAR */
+.nav{
+    padding: 0.5rem;
+    /* border: 1px solid #000; */
+    text-align:center;
+}
+.navbar-toggler {
+    width: 3em;
+    border-radius: 0.5em;
+}
+.category{
+    padding: 0;
+    margin: 0;
+}
+.newslater{
+    text-align: center;
+}
+.text-justify{
+    text-align: justify;
+}
+/*Single.php*/
+#img_post{
+ display: flex;
+ justify-content: center;
+ margin: 1rem;
+}
+/* COMMNENTS */
+.date {
+    font-size: 11px
+}
+
+.comment-text {
+    font-size: 12px
+}
+
+.fs-12 {
+    font-size: 12px
+}
+
+.shadow-none {
+    box-shadow: none
+}
+
+.name {
+    color: #007bff
+}
+
+.cursor:hover {
+    color: blue
+}
+
+.cursor {
+    cursor: pointer
+}
+
+.textarea {
+    resize: none
+}
+/* COMMENTS */
+/*Single.php*/
