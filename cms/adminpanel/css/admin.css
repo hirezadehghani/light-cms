@@ -1,0 +1,45 @@
+@font-face{
+    font-family: "vazir";
+    src: url("../fonts/vazir/vazir.eot");
+    src: url("../fonts/vazir/vazir.eot#iefix") format("embeded-opentype"),
+         url("../fonts/vazir/vazir.woff2") format("woff2"),
+         url("../fonts/vazir/vazir.woff") format("woff"),
+         url("../fonts/vazir/vazir.ttf") format("truetype");
+}
+body{
+    direction: rtl;
+    text-align: right !important;
+    font-family: "vazir" !important;
+    font-size: 1rem;
+}
+i{
+    color:#000;
+}
+a{
+    color:#000;
+}
+/* The sidebar menu */
+.sidenav {
+  height: 100%;
+  position: fixed; 
+  z-index: 1;
+  right: 0;
+  /* background-color: #000; */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+}
+
+/* The navigation menu links */
+.sidenav a {
+  text-decoration: none;
+  font-size: 25px;
+  color: #000;
+}
+
+.sidenav a:hover {
+  color: #1ca2e0;
+}
+/* ADD POST */
+.ck-editor__editable_inline {
+  min-height: 350px;
+}
